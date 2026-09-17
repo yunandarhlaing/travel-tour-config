@@ -1,9 +1,4 @@
-server:
-  port: 9030
-
 spring:
-  application:
-    name: administrator-service
   datasource:
 #    url: jdbc:postgresql://ssh.basicdeploy.com:5432/bd_u_a4b4f9f7467b?sslmode=disable
 #    username: bd_u_a4b4f9f7467b

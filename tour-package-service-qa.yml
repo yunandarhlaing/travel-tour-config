@@ -1,0 +1,22 @@
+server:
+  port: 9050
+
+spring:
+  application:
+    name: tour-package-service
+  datasource:
+#    url: jdbc:postgresql://ssh.basicdeploy.com:5432/bd_u_a4b4f9f7467b?sslmode=disable
+#    username: bd_u_a4b4f9f7467b
+#    password: ba355ad5-14ad-4caa-9762-af036577881f
+#    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/package_db
+    username: postgres
+    password: ENC(F8s+vqvqUMoe/Wg3I6A2McDMs7GrKHGV1jn7rP14Qs86wsrqYwGXCyCf0fzzV47h)
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jasypt:
+  encryptor:
+    password: hy6hPm8bstkVHo2iIOnw9u32dnfjnHGD6jbMKB4/flg=

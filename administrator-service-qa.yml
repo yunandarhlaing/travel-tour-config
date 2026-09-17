@@ -1,0 +1,26 @@
+server:
+  port: 9030
+
+spring:
+  application:
+    name: administrator-service
+  datasource:
+#    url: jdbc:postgresql://ssh.basicdeploy.com:5432/bd_u_a4b4f9f7467b?sslmode=disable
+#    username: bd_u_a4b4f9f7467b
+#    password: ba355ad5-14ad-4caa-9762-af036577881f
+#    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/user_db
+    username: postgres
+    password: ENC(F8s+vqvqUMoe/Wg3I6A2McDMs7GrKHGV1jn7rP14Qs86wsrqYwGXCyCf0fzzV47h)
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+security:
+  password:
+    secret-key: eBOnOIwn3FL4aKemy4w6Lu9lNy7RD+c0V3iJrajQ1Kw=
+
+jasypt:
+  encryptor:
+    password: hy6hPm8bstkVHo2iIOnw9u32dnfjnHGD6jbMKB4/flg=

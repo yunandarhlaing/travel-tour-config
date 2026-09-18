@@ -30,4 +30,4 @@ eureka:
 info:
   app:
     name: "customer-service"
-    description: "YBank Administrator Service"
+    description: "YBank Customer Service"

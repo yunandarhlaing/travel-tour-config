@@ -5,9 +5,9 @@ spring:
   application:
     name: administrator-service
   datasource:
-    url: jdbc:postgresql://ssh.basicdeploy.com:5432/bd_u_a4b4f9f7467b?sslmode=disable
-    username: bd_u_a4b4f9f7467b
-    password: ba355ad5-14ad-4caa-9762-af036577881f
+    url: jdbc:postgresql://ssh.basicdeploy.com:5432/bd_u_cc6d81ab11b5?sslmode=disable
+    username: bd_u_cc6d81ab11b5
+    password: 6896ccd0-1da3-4f7f-9908-ba8e0ae64d39
     driver-class-name: org.postgresql.Driver
     # url: jdbc:postgresql://localhost:5432/user_db
     # username: postgres

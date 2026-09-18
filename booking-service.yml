@@ -2,8 +2,6 @@ server:
   port: 9100
 
 spring:
-  application:
-    name: booking-service
   datasource:
     #    url: jdbc:postgresql://ssh.basicdeploy.com:5432/bd_u_cc6d81ab11b5?sslmode=disable
     #    username: bd_u_cc6d81ab11b5
@@ -32,5 +30,5 @@ eureka:
 
 info:
   app:
-    name: "administrator-service"
-    description: "YBank Administrator Service"
+    name: "booking-service"
+    description: "YBank Booking Service"

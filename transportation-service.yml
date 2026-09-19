@@ -3,14 +3,14 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://ssh.basicdeploy.com:5432/bd_u_cc6d81ab11b5?sslmode=disable
-    username: bd_u_cc6d81ab11b5
-    password: 6896ccd0-1da3-4f7f-9908-ba8e0ae64d39
+    # url: jdbc:postgresql://ssh.basicdeploy.com:5432/bd_u_cc6d81ab11b5?sslmode=disable
+    # username: bd_u_cc6d81ab11b5
+    # password: 6896ccd0-1da3-4f7f-9908-ba8e0ae64d39
+    # driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/package_db
+    username: postgres
+    password: ENC(F8s+vqvqUMoe/Wg3I6A2McDMs7GrKHGV1jn7rP14Qs86wsrqYwGXCyCf0fzzV47h)
     driver-class-name: org.postgresql.Driver
-#    url: jdbc:postgresql://localhost:5432/package_db
-#    username: postgres
-#    password: ENC(F8s+vqvqUMoe/Wg3I6A2McDMs7GrKHGV1jn7rP14Qs86wsrqYwGXCyCf0fzzV47h)
-#    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
@@ -30,5 +30,5 @@ eureka:
 
 info:
   app:
-    name: "tour-package-service"
-    description: "YBank Tour Package Service"
+    name: "transportation-service"
+    description: "YBank Transportation Service"

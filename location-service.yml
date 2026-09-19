@@ -20,3 +20,17 @@ spring:
 jasypt:
   encryptor:
     password: hy6hPm8bstkVHo2iIOnw9u32dnfjnHGD6jbMKB4/flg=
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
+info:
+  app:
+    name: "destination-service"
+    description: "YBank Destination Service"

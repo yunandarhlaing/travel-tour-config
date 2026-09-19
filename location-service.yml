@@ -2,8 +2,6 @@ server:
   port: 9020
 
 spring:
-  application:
-    name: customer-service
   datasource:
 #    url: jdbc:postgresql://ssh.basicdeploy.com:5432/bd_u_a4b4f9f7467b?sslmode=disable
 #    username: bd_u_a4b4f9f7467b
@@ -32,5 +30,5 @@ eureka:
 
 info:
   app:
-    name: "destination-service"
-    description: "YBank Destination Service"
+    name: "location-service"
+    description: "YBank Location Service"

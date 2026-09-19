@@ -27,20 +27,6 @@ jasypt:
   encryptor:
     password: hy6hPm8bstkVHo2iIOnw9u32dnfjnHGD6jbMKB4/flg=
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: always
-    shutdown:
-      access: unrestricted
-  info:
-    env:
-      enabled: true
-
 eureka:
   instance:
     preferIpAddress: true

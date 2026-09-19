@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/user_db
     username: postgres
-    password: ENC(...)
+    password: ENC(F8s+vqvqUMoe/Wg3I6A2McDMs7GrKHGV1jn7rP14Qs86wsrqYwGXCyCf0fzzV47h)
     driver-class-name: org.postgresql.Driver
 
     hikari:
@@ -21,11 +21,11 @@ spring:
 
 security:
   password:
-    secret-key: ${SECURITY_PASSWORD_SECRET_KEY}
+    secret-key: eBOnOIwn3FL4aKemy4w6Lu9lNy7RD+c0V3iJrajQ1Kw=
 
 jasypt:
   encryptor:
-    password: ${JASYPT_ENCRYPTOR_PASSWORD}
+    password: hy6hPm8bstkVHo2iIOnw9u32dnfjnHGD6jbMKB4/flg=
 
 management:
   endpoints:

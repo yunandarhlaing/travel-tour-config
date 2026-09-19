@@ -25,7 +25,7 @@ spring:
       idle-timeout: 60000
 
       # Maximum lifetime of a connection (30 minutes)
-      max-lifetime: 1800000s
+      max-lifetime: 1800000
   jpa:
     hibernate:
       ddl-auto: update
